@@ -131,6 +131,7 @@ img {
 }
 .box-contant {
   width: 100%;
+   padding-left: 15px;
 }
 .box-contant ul {
   list-style: none;
