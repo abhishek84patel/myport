@@ -9,5 +9,6 @@ function darkMode(){
   }
   else{
     body.style.backgroundColor="#161a20"
+body.style.color="white"
   }
 }
