@@ -12,3 +12,4 @@ function darkMode(){
 body.style.color="white"
   }
 }
+
