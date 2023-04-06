@@ -13,3 +13,31 @@ body.style.color="white"
   }
 }
 
+
+$(window).scroll(function() {
+  $('.Scroll-righttoleft').each(function() {
+      var position = $(this).offset().top;
+      var scroll = $(window).scrollTop();
+      var windowHeight = $(window).height();
+      if (scroll > position - windowHeight + 100) {
+          $(this).addClass('visible');
+      }
+  });
+});
+
+
+
+$(window).scroll(function() {
+  $('.Scroll-lefttoright').each(function() {
+      var position = $(this).offset().top;
+      var scroll = $(window).scrollTop();
+      var windowHeight = $(window).height();
+      if (scroll > position - windowHeight + 100) {
+          $(this).addClass('visible');
+      }
+  });
+});
+
+
+
+
